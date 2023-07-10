@@ -4,7 +4,7 @@ datePublished: Sat Jul 08 2023 10:05:00 GMT+0000 (Coordinated Universal Time)
 cuid: cljtuabzx00000al3dkr4e947
 slug: using-supabase-authentication-in-nestjs
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1688810301061/038f5b96-b665-47a5-aadb-d1fca30184b7.png
-tags: authentication, baas, nestjs, supabase
+tags: authentication, baas, cloudinary, nestjs, supabase
 
 ---
 
@@ -18,7 +18,7 @@ You can use many of its services independently when working with **BaaS**, devel
 
 # Authentication and Authorization
 
-Authentication in Supabase can be initiated on the client, an app can be written entirely in the front-end app. However, some actions might require the ability to run server-side code, an example could be when trying to create a signed upload in Cloudinary, signed uploads can only be done server-side. To authorize its endpoint, Supabase uses JWTs(JSON web tokens) and RLS(Row Level Security) for authorization. After successful authentication, Supabase access tokens can be used to authorize a client to access a resource on a server using its JWT secret to verify and validate the access tokens.
+Authentication in Supabase can be initiated on the client, an app can be written entirely in the front-end app. However, some actions might require the ability to run server-side code, an example could be when trying to create a signed upload in [Cloudinary](https://cloudinary.com/), signed uploads can only be done server-side. To authorize its endpoint, Supabase uses JWTs(JSON web tokens) and RLS(Row Level Security) for authorization. After successful authentication, Supabase access tokens can be used to authorize a client to access a resource on a server using its JWT secret to verify and validate the access tokens.
 
 ### **NestJs Setup**
 
