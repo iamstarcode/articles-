@@ -3,6 +3,7 @@ title: "Validate data in both Server Actions and Client in NextJs using Zod and 
 datePublished: Thu Apr 25 2024 18:56:18 GMT+0000 (Coordinated Universal Time)
 cuid: clvflubvt000u09l99vazez4e
 slug: validate-data-in-both-server-actions-and-client-in-nextjs-using-zod-and-react-hook-forms
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/mT7lXZPjk7U/upload/ec5a5d8de9d5d94ff1c163a02fa68e06.jpeg
 tags: reactjs, validation, nextjs, react-hook-form, nextjs-server-actions
 
 ---
